@@ -74,7 +74,7 @@ print("Finished!")
 
 #FOR 
 #essenzialmente funziona come un for each
-words = ["hello", "world", "spam". "eggs"]
+words = ["hello", "world", "spam", "eggs"]
 for word in words:
     print(word)
 
