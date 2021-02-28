@@ -18,4 +18,4 @@ print("Nice username, " + username)
 
 #you can convert with int(), str(), float()
 
-age = int(input("\nHow old are you? ")) #lalalalala
+age = int(input("\nHow old are you? "))
