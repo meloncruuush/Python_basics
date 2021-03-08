@@ -89,6 +89,7 @@ finally:
 
 #possiamo ottenere questo anche tramite il with. crea una variabile temporanea solitamente chiamata f
 #accessibile solo dentro al blocco e prende il valore del with
-#il file viene chiuso automaticamente anche se causa una eccezione
+#il file viene chiuso automaticamente anche se causa una eccezione 
+#puoi usare with dentro al try except
 with open("filename.txt") as f:
     print(f.read())
