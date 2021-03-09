@@ -9,9 +9,9 @@
 #ValueError: a function is called on a value of the correct type, but with an inappropriate value.
 
 try:
-    #code
-except Exception:
-    #code
+    print("java")#code
+except:
+    print("cameltoe")#code
 
 #there can be more then one except, and for each except, more than one type of exception
 #an except statement will catch every type of statement if nothing is specified
@@ -93,3 +93,5 @@ finally:
 #puoi usare with dentro al try except
 with open("filename.txt") as f:
     print(f.read())
+
+    shalaal
