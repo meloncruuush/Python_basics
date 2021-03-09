@@ -93,5 +93,3 @@ finally:
 #puoi usare with dentro al try except
 with open("filename.txt") as f:
     print(f.read())
-a
-    shalaal
