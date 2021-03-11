@@ -60,6 +60,9 @@ nums.count("spam") #return how many time something occur
 nums.remove("spam") #remove the element
 nums.reverse() #reverse items in list
 
+#LIST SLICES
+#è un metodo più avanzato per recuperare i dati da una lista
+
 
 
 #WHILE

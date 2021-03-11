@@ -1,3 +1,5 @@
+#Scrivi una funzione che prende due numeri come parametro e manda in print il più grande tra i due.
+
 def max(a, b):
     if a == b:
         print("I due numeri sono uguali.")
