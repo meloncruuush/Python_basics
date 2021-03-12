@@ -15,25 +15,30 @@ def calcola_area():
     funzione = switch.get(x, "Input non valido")
     funzione()
 
+
 def area_cerchio():
     r = float(input("Inserisci il raggio: "))
     area = (r**2)*pi
     print(round(area,3))
+
 
 def area_quadrato():
     lato = float(input("Inserisci il lato del quadrato: "))
     area = lato**2
     print(round(area, 2))
 
+
 def area_rettangolo():
     base, altezza = float(input("Inserisci la base: ")), float(input("Inserisci l'altezza: "))
     area = base*altezza
     print(round(area, 2))
 
+
 def area_triangolo():
     base, altezza = float(input("Inserisci la base: ")), float(input("Inserisci l'altezza: "))
     area = base*altezza/2
     print(round(area, 2))
+
 
 while True:
     calcola_area()

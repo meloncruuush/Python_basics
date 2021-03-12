@@ -16,4 +16,4 @@ def switch(mese):
         12: "December"
     }
 
-    print switcher.get(mese, "Mese non valido")
+    print(switcher.get(mese, "Mese non valido"))

@@ -55,4 +55,4 @@ def numbers_to_months(argument):
     # Get the function from switcher dictionary
     func = switcher.get(argument, lambda: "Invalid month")
     # Execute the function
-    print func()
+    print(func())
