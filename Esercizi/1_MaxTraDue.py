@@ -1,6 +1,6 @@
-#Scrivi una funzione che prende due numeri come parametro e manda in print il più grande tra i due.
+# Scrivi una funzione che prende due numeri come parametro e manda in print il più grande tra i due.
 
-def max(a, b):
+def massimo(a, b):
     if a == b:
         print("I due numeri sono uguali.")
     elif a > b:
@@ -8,4 +8,5 @@ def max(a, b):
     else:
         print(str(b) + " è maggiore di " + str(a))
 
-max(int(input("Inserisci il primo numero: ")), int(input("\nInserisci il secondo numero: ")))
+
+massimo(int(input("Inserisci il primo numero: ")), int(input("\nInserisci il secondo numero: ")))

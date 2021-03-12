@@ -1,4 +1,4 @@
-#In Python non esiste l'equivalente Java di switch, ma possiamo comunque crearcelo
+# In Python non esiste l'equivalente Java di switch, ma possiamo comunque crearcelo
 
 def switch(mese):
     switcher = {

@@ -1,4 +1,4 @@
-#Scrivi una funzione "sommatrice" che somma tra loro tutti gli elementi di una lista di numeri.
+# Scrivi una funzione "sommatrice" che somma tra loro tutti gli elementi di una lista di numeri.
 
 def sommatrice(lista):
     somma = 0

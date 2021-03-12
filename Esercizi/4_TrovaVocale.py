@@ -1,6 +1,7 @@
-#Scrivi una funzione a cui viene passato un carattere come parametro, e che ci dice se il carattere è o meno una vocale.
+# Scrivi una funzione a cui viene passato un carattere come parametro, e che ci dice se il carattere
+# è o meno una vocale.
 
-def trovaVocale(a):
+def trova_vocale(a):
     vocali = "aeiou"
 
     if a in vocali:
@@ -9,5 +10,4 @@ def trovaVocale(a):
         print("Il carattere non è una vocale")
 
 
-
-trovaVocale("a")
+trova_vocale("a")

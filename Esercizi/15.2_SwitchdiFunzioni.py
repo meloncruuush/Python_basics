@@ -1,38 +1,50 @@
-#Implementazione di uno switch per richiamare funzioni
+# Implementazione di uno switch per richiamare funzioni
+
 
 def one():
     return "January"
- 
+
+
 def two():
     return "February"
- 
+
+
 def three():
     return "March"
- 
+
+
 def four():
     return "April"
- 
+
+
 def five():
     return "May"
- 
+
+
 def six():
     return "June"
- 
+
+
 def seven():
     return "July"
- 
+
+
 def eight():
     return "August"
- 
+
+
 def nine():
     return "September"
- 
+
+
 def ten():
     return "October"
- 
+
+
 def eleven():
     return "November"
- 
+
+
 def twelve():
     return "December"
  
